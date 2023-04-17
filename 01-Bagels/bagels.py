@@ -6,15 +6,17 @@ def bagels():
 	os.system('clear')
 
 	# Introduce the game
-	print('''I am thinking of a 3-digit number. Try to guess what it is.
-	Here are some clues:
-	When I say:     That means:
-	  Pico            One digit is correct but in the wrong position.
-	  Fermi           One digit is correct and in the right position.
-	  Bagels          No digit is correct.
+	print('''Bagels, a deductive logic game.
+By Al Sweigart al@inventwithpython.com
+I am thinking of a 3-digit number. Try to guess what it is.
+Here are some clues:
+When I say:     That means:
+  Pico            One digit is correct but in the wrong position.
+  Fermi           One digit is correct and in the right position.
+  Bagels          No digit is correct.
 
-	I have though up a number.
-	  You have 10 guesses to get it.''')
+I have though up a number.
+  You have 10 guesses to get it.''')
 
 	# Variables
 	guess = 1
